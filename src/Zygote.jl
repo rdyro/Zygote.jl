@@ -1,5 +1,8 @@
 module Zygote
 
+println("Using modified Zygote")
+const MODIFIED = true
+
 using LinearAlgebra, Statistics
 using LinearAlgebra: copytri!, AbstractTriangular
 
